@@ -1,0 +1,27 @@
+<p>product works!</p>
+<div >
+    <fieldset  >
+        <legend><b>Product Price Calculator</b></legend>
+        <br/> <br/>
+    
+       <label for="pname">Product Name</label> :
+        <input type="text" [(ngModel)]="pname" id="pname">
+        <br/> <br/>
+    
+        <label for="price">Product Price</label> :
+        <input type="number" [(ngModel)]="price" id="price">
+        <br/> <br/>
+    
+        <label for="qty">Quantity</label> :
+        <input type="number" [(ngModel)]="qty" id="qty" >
+        <br/> <br/>
+        
+        <button type="button"  (click)="GetTotal()">Save</button>
+        <br/> <br/>
+
+        <span [style.color]="Color"> Total Amount :
+        {{Total}}
+
+        </span>
+      </fieldset>
+  </div>
