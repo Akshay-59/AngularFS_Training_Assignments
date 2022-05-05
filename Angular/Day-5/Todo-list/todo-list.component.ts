@@ -22,9 +22,9 @@ export class TodoListComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.todolist = [{ id: 1, itemName: "Learn Java 8", isDone: false },
-    { id: 2, itemName: "Play Games", isDone: false },
-    { id: 3, itemName: "Learn React", isDone: false },
+    this.todolist = [{ id: 1, itemName: "Todo 1", isDone: false },
+    { id: 2, itemName: "Todo 2", isDone: false }
+    
   ];
 
   }
